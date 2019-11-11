@@ -10,6 +10,7 @@ namespace SimpleEventRostering.Models
 		public DateTime StartTime { get; set; }
 		public DateTime EndTime { get; set; }
 		public IDictionary<UserModel.Role, int> RolesNeeded { get; set; }
+		public string EventName { get; set; }
 
 	}
 }
